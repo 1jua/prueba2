@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    color: white;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+img {
+    position: relative;
+    padding: 25px;
+}
+
+nav {
+    padding: 20px;
+    position: relative;
+}
+
+/*nav a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+
+
+}
+
+nav a:hover{
+    color: #0dc730;
+    text-decoration: overline;
+}
+
+.fondo {
+    position: relative;
+}*/
+
+
+
+
+
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0dc730;
+    text-decoration: overline;
+}
+
+
+
+h2{
+    padding: 10px;
+    
+}
+
+p {
+    text-align: justify;
+    padding: 15px;
+}
+
+
+
+
+
+/* Estilos generales */
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}*/
+
+/* Estilos de la galería */
+/* .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} */
+
+/* Estilos de las imágenes */
+.image {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Estilos de la descripción de la imagen */
+.image p {
+    margin: 10px 0;
+    color: #333;
+}
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
